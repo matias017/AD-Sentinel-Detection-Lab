@@ -1,0 +1,43 @@
+[
+  {
+    "TimeGenerated": "2026-08-08T03:14:02Z",
+    "EventID": 4625,
+    "TargetUserName": "jgonzalez",
+    "IpAddress": "185.220.101.5",
+    "SubStatus": "0xc000006a"
+  },
+  {
+    "TimeGenerated": "2026-08-08T03:14:05Z",
+    "EventID": 4625,
+    "TargetUserName": "mlopez",
+    "IpAddress": "185.220.101.5",
+    "SubStatus": "0xc000006a"
+  },
+  {
+    "TimeGenerated": "2026-08-08T03:14:10Z",
+    "EventID": 4624,
+    "TargetUserName": "jgonzalez",
+    "IpAddress": "185.220.101.5"
+  }
+[
+  {
+    "TimeGenerated": "2026-08-08T03:14:02Z",
+    "EventID": 4625,
+    "TargetUserName": "jgonzalez",
+    "IpAddress": "185.220.101.5",
+    "SubStatus": "0xc000006a"
+  },
+  {
+    "TimeGenerated": "2026-08-08T03:14:05Z",
+    "EventID": 4625,
+    "TargetUserName": "mlopez",
+    "IpAddress": "185.220.101.5",
+    "SubStatus": "0xc000006a"
+  },
+  {
+    "TimeGenerated": "2026-08-08T03:14:10Z",
+    "EventID": 4624,
+    "TargetUserName": "jgonzalez",
+    "IpAddress": "185.220.101.5"
+  }
+]
