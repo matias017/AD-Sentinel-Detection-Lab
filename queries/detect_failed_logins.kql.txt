@@ -1,0 +1,7 @@
+// Detección de Password Spray / Fuerza Bruta en Active Directory
+SecurityEvent
+| where EventID == 4625
+| where TimeGenerated > ago(1h)
+| summarize FailedAttempts = count(), TargetUsers = make_set(TargetUserName) by IpAddress, bin(TimeGenerated, 10m)
+| where FailedAttempts >= 2
+| project TimeGenerated, IpAddress, FailedAttempts, TargetUsers
